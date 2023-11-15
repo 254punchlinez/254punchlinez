@@ -1,0 +1,11 @@
+Accident_index,county,Accident_severity,Number_of_casualty,Day_of_week,Time,Speed
+1,Nairobi,Fatal,10,Monday,19:15,Maximum
+2,Nakuru,Fatal,15,Sunday,20:00,Maximum
+3,Machakos,Slight,0,Tuesday,7:10,Average
+4,Kitui,Serious,4,Friday,9:12,Average
+5,Kisumu,Fatal,16,Wednesday,12:07,Maximum
+6,Mombasa,Fatal,12,Saturday,10:20,Average
+7,Kajiado,Slight,0,Thursday,8:55,Minimum
+8,Eldoret,Slight,0,Monday,1:11,Maximum
+9,Kericho,Serious,3,Tuesday,4:55,Maximum
+10,Kisii,Serious,1,Tuesday,11:13,Maximum
