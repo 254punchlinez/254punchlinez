@@ -1,0 +1,29 @@
+voter's_ID,audience,likes_and_shares,sentiment,time,candidate
+1,adults,300,positive ,12:44,A
+2,teens,500,negative,4:50,B
+3,children,23,neutral,3:44,A
+4,children,400,positive ,2:00,A
+5,all,35,neutral,5:09,C
+6,adults,67,neutral,6:00,A
+7,adults,340,negative,11:00,C
+8,teens,200,positive ,4:40,C
+9,teens,450,positive ,10:23,C
+10,children,320,positive ,5:34,B
+11,teens,34,negative,1:45,A
+12,all,456,positive ,8:34,B
+13,all,45,neutral,5:45,A
+14,adults,467,negative,7:53,B
+15,children,357,positive ,5:07,A
+16,teens,45,positive ,0:03,C
+17,teens,324,positive ,8:34,A
+18,teens,150,neutral,3:33,C
+19,teens,200,neutral,5:09,B
+20,teens,250,negative,6:34,B
+21,adults,340,neutral,7:03,C
+22,adults,340,positive ,1:23,C
+23,children,234,positive ,3:45,A
+24,all,478,positive ,9:45,B
+25,all,438,positive ,9:00,A
+26,teens,345,positive ,8:21,C
+27,all,342,positive ,4:14,B
+28,adults,150,positive ,2:43,B
