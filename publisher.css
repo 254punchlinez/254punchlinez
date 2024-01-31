@@ -21,3 +21,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: none;
     color: lightblue;
   }
+  footer {
+    background-color: none;
+    color:black;
+    text-align:right;
+    font-family:cursive
+  }
