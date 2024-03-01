@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafi Chai</title>
+
+    <style>
+        body{
+            background-image:url("logo.png");    
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-size: large;
+            font-family: "Dancing Script", cursive;
+            color:black;
+
+        }
+        .header {
+            background-color:lightgreen;
+            padding: 1px;
+            display: flex;
+            justify-content: space-between;
+             align-items: center;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            background-attachment: fixed;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            text-align: center;
+            padding: 50px,50px;
+            margin: 25px,25px;
+            justify-content: space-between;
+            list-style-type: none;
+            display: inline-block;
+            text-align: right;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 20px; 
+            text-align: center; 
+              }
+        h1 {
+            font-family: "Dancing Script", cursive;
+            align-content: center;
+            text-align: center;
+            text-decoration: underline;
+            font-style: italic;
+            color:limegreen;
+            }       
+        .logo {
+            display: flex;
+            flex-direction: row;
+            padding: 2px;
+            border-radius: 2px;
+            height: 90px;
+
+        }
+        footer{
+            color: rgb(203, 123, 18);
+        }
+        .img{
+            display:flex;
+            align-items: center;   
+        }
+        .img img{
+            width: 400px;
+            margin-right: 250px;
+        }
+        .img p{
+            max-width: 50%;
+        }
+        button{
+            background-color: wheat;
+            border-radius: 4px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function orderClicked() {
+            // Implement your order functionality here
+            alert("Make your order");
+        }
+
+        function bookClicked() {
+            // Implement your book functionality here
+            alert("Book a table");
+        }
+    </script>   
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="images.jpg" alt="tea">
+                <h2><b>Chai Kafi</b></h2>
+                <nav>
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Tea Collection</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="events.html">Event</a></li>
+                        <li><button class="order-btn" onclick="orderClicked()">Order</button></li>
+                        <li><button class="book-btn" onclick="bookClicked()">Book</button></li>
+
+                               
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header> 
+    <h1>Our wide variety of tea</h1>
+    <div class="img">
+    <img src="tea.jpg" alt="variety"> 
+    <p>
+ 
+        Tea is a globally consumed beverage with a rich history spanning centuries and diverse cultural traditions.
+        Derived from the leaves of the Camellia sinensis plant, the main types of tea - green, black, oolong, white, and pu-erh - undergo different levels of oxidation and processing,
+        resulting in a spectrum of flavors, aromas, and appearances. Additionally, herbal teas, such as chamomile and peppermint, are popular alternatives made from various plants.
+    </p>
+</div>
+    <p>
+        The following are the types of tea found at Chai Kafi and their benefits:-
+        <li>Green Tea:
+
+            Known for its fresh and grassy flavor.
+            Unoxidized leaves retain their natural green color.
+            Rich in antioxidants and believed to have various health benefits.
+            </li>
+            <li>
+            Black Tea:
+            
+            Fully oxidized tea leaves result in a dark color and robust flavor.
+            Popular varieties include Assam, Darjeeling, and Earl Grey.
+            Contains caffeine and is often served with milk and sugar.
+        </li>
+        <li>
+            Oolong Tea:
+            
+            Partially oxidized tea, falling between green and black tea.
+            Exhibits a wide range of flavors, from floral and fruity to smoky and earthy.
+            Popular varieties include Tie Guan Yin and Da Hong Pao.
+        </li>
+        <li>
+            White Tea:
+            
+            Minimal processing, made from young tea leaves and buds.
+            Delicate flavor with subtle sweetness.
+            Contains less caffeine compared to green and black tea.
+        </li>
+        <li>
+            Herbal Tea:
+            
+            Not technically tea as it is made from herbs, fruits, flowers, and spices.
+            Wide variety, including chamomile, peppermint, and hibiscus.
+            Often caffeine-free and known for various health benefits.
+        </li>
+           <li>
+            Chai Tea:
+            
+            A spiced tea blend, typically made with black tea, spices, and milk.
+            Common spices include cinnamon, cardamom, ginger, and cloves.
+            Originating from India, chai has become popular worldwide.
+        </li>
+            And as you can see,we have everything for everyone.
+            We gat you.
+    </p>
+    <footer>
+            <p><i>&copy;world of tea</i></p>
+    </footer>  
+</body>
+</html>
