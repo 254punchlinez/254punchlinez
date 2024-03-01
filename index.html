@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafi Chai</title>
+    <style>
+        body{
+            background-image:url("logo.png");    
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-size: large;
+            font-family: "Dancing Script", cursive;
+
+        }
+        .header {
+            background-color:lightgreen;
+            padding: 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            background-attachment: fixed;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            text-align: center;
+            padding: 50px,50px;
+            margin: 25px,25px;
+            justify-content: space-between;
+            list-style-type: none;
+            display: inline-block;
+            text-align: right;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 20px; 
+            text-align: center; 
+              }
+        h2 {
+            font-family: "Dancing Script", cursive;
+            align-content: center;           
+        }
+        .logo {
+            display: flex;
+            flex-direction: row;
+            padding: 2px;
+            border-radius: 2px;
+            height: 90px;
+
+            
+        }
+        p{
+            font-weight: 100;
+            font-family: "Dancing Script", cursive;  
+            color:black;
+            float: inline-start;
+        
+        }
+        .par1{
+            margin-right: 15px;
+        }
+        .split{
+            display: flex;
+            flex-direction: row;
+        }
+        footer{
+            font-family: "Dancing Script", cursive;
+            color:blue;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            font-style: italic;
+            color:limegreen;
+        }
+        button{
+            background-color: wheat;
+            border-radius: 4px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+        }
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+            height: 100px;
+          }
+
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          div.desc {
+            padding: 15px;
+            text-align: center;
+            color: limegreen;
+          }
+          .grouping{
+            display: flex;
+            justify-content: space-between;
+          }
+          
+        button.order-btn, button.book-btn {
+          background-color: wheat;
+          border-radius: 4px;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          cursor: pointer;}
+          </style>
+          <script>
+            function orderClicked() {
+                // Implement your order functionality here
+                alert("Make your order");
+            }
+    
+            function bookClicked() {
+                // Implement your book functionality here
+                alert("Book a table");
+            }
+        </script>   
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="images.jpg" alt="tea">
+                <h2><b>Chai Kafi</b></h2>
+                <nav>
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="collection.html">Tea Collection</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="events.html">Event</a></li>
+
+                        <li><button class="order-btn" onclick="orderClicked()">Order</button></li>
+                        <li><button class="book-btn" onclick="bookClicked()">Book</button></li>
+      
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h1>Welcome to Chai Kafi</h1>
+    <div class="split"><i>
+    <p class="par1">
+         The world of tea is about to be shaken up. I'm thrilled to introduce our newest creation that will revolutionize the tea experience.
+         This isn't just another cup of tea - it's an adventure for your tastebuds. Our master blenders have crafted a symphony of flavors that will transport you to tea gardens around the globe with each sip.
+         We've distilled the essence of the finest teas and blended them into something truly unique. One taste and you'll be hooked by the lush, multilayered flavors.
+         The aroma alone will stop you in your tracks.
+         </p>
+         <p class="par2">
+         We've poured our passion into developing the most exquisite and exciting tea we could imagine.
+         This is tea elevated to an art form. When you open that first tea bag and watch the leaves slowly unfurl, you'll know you're in for an extraordinary experience. 
+         Your cup will overflow with bold yet balanced flavors that linger long after the last drop. Tea will never be the same again after you try our latest creation.
+         Get ready to fall in love with tea all over again. The tea world will never be the same.
+         <p>
+            The following are the products available at Chai Kafi:
+        </p> 
+        </i>
+     </p>
+    </div>
+    <div class="grouping">
+    <div class="gallery">
+        <a target="_blank" href=bags.jpg">
+          <img src="bags.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">AVAILABLE TEA POCKETS</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="tea.jpg">
+          <img src="tea.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">AVAILABLE READY MADE TEA CUPS</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="types.jpg">
+          <img src="types.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">TEA AROUND THE WORLD</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="chai.jpg">
+          <img src="chai.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">HERBAL TEA</div>
+      </div>
+    </div>
+</body>
+<footer>
+    <p><i>&copy;world of tea</i></p>
+     </footer>
+</html>
