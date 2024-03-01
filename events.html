@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafi Chai</title>
+    <style>
+        body{
+            background-image:url("logo.png");    
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-size: large;
+            font-family: "Dancing Script", cursive;
+
+        }
+        .header {
+            background-color:lightgreen;
+            padding: 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            background-attachment: fixed;
+        }
+        h2{
+            font-family: "Dancing Script", cursive;
+            align-items: center;  
+            color: limegreen;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            text-align: center;
+            padding: 50px,50px;
+            margin: 25px,25px;
+            justify-content: space-between;
+            list-style-type: none;
+            display: inline-block;
+            text-align: right;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 20px; 
+            text-align: center; 
+              }
+        .logo {
+            display: flex;
+            flex-direction: row;
+            padding: 2px;
+            border-radius: 2px;
+            height: 90px;
+
+            
+        }
+        p{
+            font-weight: 100;
+            font-family: "Dancing Script", cursive;  
+            color:black;
+            float: inline-start;
+        
+        }
+        .par1{
+            margin-right: 15px;
+        }
+        .split{
+            display: flex;
+            flex-direction: row;
+        }
+        h2{
+            text-align: center;
+            text-decoration: underline;
+            font-style: italic;
+            color:limegreen;
+        }
+        button{
+            background-color: wheat;
+            border-radius: 4px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;}
+            .images{
+justify-content: center,space-between;   
+margin: 20px 20px;         }
+.images img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+}
+          </style>
+          <script>
+            function orderClicked() {
+                // Implement your order functionality here
+                alert("Make your order");
+            }
+    
+            function bookClicked() {
+                // Implement your book functionality here
+                alert("Book a table");
+            
+            }
+        </script>  
+</head>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="images.jpg" alt="tea">
+                <h2><b>Chai Kafi</b></h2>
+                <nav>
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="collection.html">Tea Collection</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="events.html">Event</a></li>
+                         <li><button class="order-btn" onclick="orderClicked()">Order</button></li>
+                        <li><button class="book-btn" onclick="bookClicked()">Book</button></li>
+      
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h2>Events organised for our esteemed customers</h2>
+    <p>
+        ~Indulge your senses in an enchanting symphony of flavors at our various tea events,cutting across every special date and occassion, where every sip unfolds a tale of exquisite craftsmanship and aromatic bliss. 
+        Join us as we transform our product into a haven for tea enthusiasts, where the delicate dance of leaves meets the artistry of brewing. 
+        Immerse yourself in a world of sensory delights, where the nuanced notes of our curated teas harmonize to create an unparalleled experience.<br> 
+        ~From the rich warmth of traditional blends to the avant-garde creations that redefine tea, our events promise a journey through the extraordinary. 
+        Elevate your tea appreciation, relish delectable pairings, and revel in the camaraderie of fellow tea aficionados. Your presence will add a touch of magic to an evening designed to celebrate the beauty of tea. 
+        Unwind, connect, and let the spirit of tea enchant you at our exclusive event.An invitation to a sensory escapade that transcends the ordinary.
+         Reserve your spot now and let the enchantment begin!
+    </p>
+    <br>
+    <div class="images">
+        <img src="event.jpg" alt="tea">
+        <img src="event1.jpg" alt="tea">
+        <img src="event2.jpg" alt="tea">
+        <img src="event3.jpg" alt="tea">
+    </div>
+    <br>
+    <p>As you can see we have everything for everyone...</p>
+</body>
+</html>
