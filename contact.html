@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafi Chai</title>
+    <style>
+        body{
+            background-image:url("logo.png");    
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-size: large;
+            font-family: "Dancing Script", cursive;
+
+        }
+        .header {
+            background-color:lightgreen;
+            padding: 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            background-attachment: fixed;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            text-align: center;
+            padding: 50px,50px;
+            margin: 25px,25px;
+            justify-content: space-between;
+            list-style-type: none;
+            display: inline-block;
+            text-align: right;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 20px; 
+            text-align: center; 
+              }
+        h2 {
+            font-family: "Dancing Script", cursive;
+            align-content: center;           
+        }
+        .logo {
+            display: flex;
+            flex-direction: row;
+            padding: 2px;
+            border-radius: 2px;
+            height: 90px;
+
+            
+        }
+        p{
+            font-weight: 100;
+            font-family: "Dancing Script", cursive;  
+            color:black;
+            float: inline-start;
+        
+        }
+        .par1{
+            margin-right: 15px;
+        }
+        .split{
+            display: flex;
+            flex-direction: row;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            font-style: italic;
+            color:limegreen;
+        }
+        button{
+            background-color: wheat;
+            border-radius: 4px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+        }
+        .img{
+            display:flex;
+            align-items: center;   
+        }
+        .img img{
+            width: 400px;
+            margin-right: 250px;
+        }
+        .img p{
+            max-width: 50%;
+        }
+        main{
+          margin-bottom: 20px;
+          padding: 20px;
+                  }
+        .content{
+          margin-bottom: 20px;
+          padding: 20px;
+                 }
+        footer {
+            background-color:teal;
+            font-family: cursive;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+
+        }
+        
+        .social-icons {
+            margin-top: 10px;
+        }
+        
+        .icon-link {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .icon-link:hover {
+            color: #007bff;
+        }
+        .details{
+            align-items: center;
+            color: darkgreen;
+        }
+        .details h3{
+            color: black;
+        }
+          </style>
+          <script>
+            function orderClicked() {
+                // Implement your order functionality here
+                alert("Make your order");
+            }
+    
+            function bookClicked() {
+                // Implement your book functionality here
+                alert("Book a table");
+            }
+        </script>  
+</head>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="images.jpg" alt="tea">
+                <h2><b>Chai Kafi</b></h2>
+                <nav>
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="collection.html">Tea Collection</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="events.html">Event</a></li>
+                         <li><button class="order-btn" onclick="orderClicked()">Order</button></li>
+                        <li><button class="book-btn" onclick="bookClicked()">Book</button></li>
+      
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <p>
+                For more information, you can find us through our social media handles.
+                In case you need a physical tour, you can check out our address on the social platforms, and you are welcome to visit anytime.
+            </p>
+        </div>
+        <center>
+            <div class="details">
+                <h3>CONTACT US VIA:</h3>
+                Telephone number: 0700250542<br>
+                Email: chaikafi@gmail.com<br>
+                Location: LIMURU, KENYA<br>
+            </div>
+        </center>
+    </main>
+</body>
+</html>
