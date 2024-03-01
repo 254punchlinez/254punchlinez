@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url("logo.png");    
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-size: large;
+            font-family: "Dancing Script", cursive;
+            color:black;
+
+        }
+        .header {
+            background-color:lightgreen;
+            padding: 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            background-attachment: fixed;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            text-align: center;
+            padding: 50px,50px;
+            margin: 25px,25px;
+            justify-content: space-between;
+            list-style-type: none;
+            display: inline-block;
+            text-align: right;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 20px; 
+            text-align: center; 
+              }
+        h1 {
+            font-family: "Dancing Script", cursive;
+            align-content: center;
+            text-align: center;
+            text-decoration: underline;
+            font-style: italic;
+            color:limegreen;
+            }       
+        .logo {
+            display: flex;
+            flex-direction: row;
+            padding: 2px;
+            border-radius: 2px;
+            height: 90px;
+
+        }
+        footer{
+            color: rgb(203, 123, 18);
+        }
+        h4{
+            color: crimson;
+            text-align: center;
+            font-family: "Dancing Script", cursive;
+
+        }
+        .img{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            max-width: 50%;
+            margin-right: 20px;
+            margin-width: 50%;
+          }
+          .img p{
+            color: chocolate;
+            font-style: italic;
+            font-weight: 300;
+          }
+          button{
+            background-color: wheat;
+            border-radius: 4px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function orderClicked() {
+            // Implement your order functionality here
+            alert("Make your order");
+        }
+
+        function bookClicked() {
+            // Implement your book functionality here
+            alert("Book a table");
+        }
+    </script>   
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="images.jpg" alt="tea">
+                <h2><b>Chai Kafi</b></h2>
+                <nav>
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="collection.html">Tea Collection</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="events.html">Event</a></li>
+                         <li><button class="order-btn" onclick="orderClicked()">Order</button></li>
+                        <li><button class="book-btn" onclick="bookClicked()">Book</button></li>      
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <h1>Chai Kafi...</h1>
+    <p>
+        <h4>Inspiration</h4>
+        Tea being a staple drink in the world,Chai Kafi made it a priority to ensure that you get the best tea int he world at your comfort zone.
+        Chai Kafi has been providing the best tea in the world since 2022 and so far it's the best.
+    </p>
+    <p>
+        <h4>Mission</h4>
+        Our mission is to ensure that our customers get the best tea in the world.
+        <br>
+         <b><i>"Your satisfaction our priority"</i></b> 
+    </p>
+    <p>
+        <h4>History</h4>
+        Chai Kafi has been in existance since 2019 and the journey has been exiting.
+        Meeting diferent kind of people is such a wonderful feeling and getting to hear our customers are satisfied by our service is the best feeling ever.
+    </p>
+    <p>
+        <h4>Team</h4>
+        Chai Kafi wouldn't be in existence if it wasn't for the team behind its existence.
+        Being a factory we have a team that ensures you,as our customer,go home with an awesome experience.
+        Ranging from the C.E.O to the last person in the hierachy,we ensure that you will always find your way back to us :).
+    </p>
+    <p>
+    <h4>Uniqueness</h4>
+    What makes us unique... you ask yourself?
+    It is the ability to make every type of tea our customers order hence they feel at home and also get a sense of belonging.
+    </p>
+    <p>
+        <h4>Location Information</h4>
+        <img src="" alt="">
+        To make orders or locate us, you can get us through our companies
+        <li>Address</li>
+        <li>Phone number</li>
+        <li>Email</li>
+        Hope to see you soon...
+        <div class="img">
+       <img src="cup.jpg" alt="cup">
+<p>Tea it away</p>
+    </div>
+</p>
+<footer>
+    <p><i>&copy;world of tea</i></p>
+</footer>
+</body>
+</html>
